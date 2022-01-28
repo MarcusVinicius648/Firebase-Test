@@ -1,0 +1,90 @@
+.container{
+    display: flex;
+    height: 100vh;
+}
+.sideContainer{
+    flex:2;
+    background-color: #5A88FD;
+   
+   display: flex;
+   flex-direction: column;
+   justify-content: center; 
+    
+}
+#firstImage{
+    max-width: 658px;
+    height: 600px;
+    margin-top: -80px;
+
+    display: flex;
+    align-self: center;
+}
+strong{
+    font-size: 38px;
+    font-family: 'Poppins' ;
+    color: #FFFF;
+    font-weight: bold;
+    line-height: 42px;
+
+    display: flex;
+    align-self: center;
+    margin-top: -50px;
+}
+
+p{
+    font-family: 'Roboto' ;
+    font-size: 24px;
+    line-height: 24px;
+    color: #FFFF;
+    font-weight: lighter;
+
+    display: flex;
+    align-self: center;
+    margin-top: 26px;
+
+    margin-left: -30px ;
+}
+
+.loginContainer{
+    flex:2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h1{
+    font: bold 64px 'Poppins';
+    
+    display: flex;
+    align-self: center;
+    margin-bottom: 15px;
+}
+
+.googleButton{
+    display: flex;
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+
+    background-color: #EA4335;
+    border: 0;
+    border-radius: 10px;
+    width: 375px;
+    height: 82px;
+
+    color: #FFF;
+    font: medium 'Poppins' 16px;
+
+    transition: filter 0,2s;
+    cursor: pointer;
+    box-shadow: 5px 10px rgb(46, 44, 44);
+
+    &:hover{
+        filter: brightness(0.9);
+    }
+}
+
+#googleImage{
+    margin-right: 5px;
+    max-width: 24px;
+}
