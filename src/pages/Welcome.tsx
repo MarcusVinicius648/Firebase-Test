@@ -6,14 +6,14 @@ import welcomeImage from '../assets/welcome_image.png';
 
 import '../styles/welcome.scss';
 
-export function Welcome(){
-    const {user, signInWithGoogle} = useAuth()
+export function Welcome() {
+    const { user, signInWithGoogle } = useAuth()
     const navigate = useNavigate();
 
-    async function handleNextPage(){
-       
-        if(!user){
-           await signInWithGoogle();
+    async function handleNextPage() {
+
+        if (!user) {
+            await signInWithGoogle();
         }
         navigate('/rooms/profile');
     }
@@ -35,7 +35,7 @@ export function Welcome(){
                     Odyssey Talk
                 </h1>
                 <button onClick={handleNextPage} className='googleButton'>
-                    <img src={googleIcon} alt="Icone do Google" id='googleImage'/>
+                    <img src={googleIcon} alt="Icone do Google" id='googleImage' />
                     Crie seu Perfil com o Google
                 </button>
             </main>

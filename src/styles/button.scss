@@ -1,0 +1,22 @@
+.buttonComponent{
+    height: 60px;
+    width: 340px;
+    border-radius: 8px;
+
+    background-color: #5A88FD;
+
+    font-family: "Poppins";
+    font-size: 16px;
+    color: #FFF;
+
+    align-self: center;
+    margin-top: 70px;
+
+    border: 0;
+
+    cursor: pointer;
+
+    &:hover{
+        background-color: #3260d4
+    }
+}
