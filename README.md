@@ -1,4 +1,4 @@
-### Firebase Application
+# 🔥Firebase Application
 Essa aplicação foi um pivô no meu estudo de React.js, aplicando a Firebase Authentication API para permitir login com uma conta do Google.
 O objetivo do projeto foi testar e consolidar os conhecimentos adquiridos, explorando a integração entre frontend e backend-as-a-service (BaaS).
 
